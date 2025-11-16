@@ -9,7 +9,9 @@
 <div class="app">
 	<!--	<Header />-->
 
-	<div class="window">Hello</div>
+	<div class="window">
+		<h1>Hello</h1>
+	</div>
 
 	<main>
 		{@render children()}
@@ -30,7 +32,7 @@
 		height: 600px;
 
 		border: 1px solid #181926;
-		box-shadow: 0 0 20px #181926;
+		box-shadow: 0 0 20px #181926;}
 
 		border-radius: 8px;
 
